@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#e9eadf" />
+    <title>Gold Coast Streets</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="game"></div>
+      <div id="loading" class="loading">
+        <div class="loading-brand">G<span>✳</span>LD COAST <b>STREETS</b></div>
+        <div class="loading-line"><i></i></div>
+        <p id="loading-text">Building your little slice of the coast...</p>
+      </div>
+      <div id="interface" class="interface hidden">
+        <header class="topbar">
+          <div class="brand"><div class="brand-mark">G<span>✳</span>LD COAST</div><div class="brand-sub">STREETS <span> / </span> EXPLORATION PROTOTYPE</div></div>
+          <div class="top-right"><span class="live-dot"></span> FREE ROAM <span class="divider"></span> <span class="sun-icon">☀</span> 24°C</div>
+        </header>
+        <div class="location">
+          <div class="eyebrow"><span></span> YOU ARE HERE</div>
+          <h1>Surfers<br /><em>Paradise.</em></h1>
+          <p>THE GOLD COAST, QUEENSLAND</p>
+          <div class="location-rule"></div>
+          <div class="location-detail">A LITTLE SLICE OF THE COAST <span>↗</span></div>
+        </div>
+        <div class="right-note"><span>01 / 01</span><i></i> THE COAST IS CALLING</div>
+        <div class="bottom-bar">
+          <div class="controls">
+            <div class="controls-title">TAKE A LOOK AROUND <span>↗</span></div>
+            <div class="control-row"><span class="keys"><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></span><span>MOVE</span><span class="control-separator"></span><span class="mouse-icon"></span><span>LOOK</span><span class="control-separator"></span><kbd class="wide-key">SHIFT</kbd><span>RUN</span></div>
+          </div>
+          <div class="bottom-center"><span>●</span> A CITY MADE FOR EXPLORING</div>
+          <div class="compass"><div class="compass-label">GOLD COAST <span>AU</span></div><div class="compass-dial"><span>N</span><b>✳</b><span>S</span></div></div>
+        </div>
+        <div id="prompt" class="prompt">
+          <div class="prompt-kicker"><span></span> WELCOME TO THE COAST</div>
+          <h2>Sun's out.<br /><em>Let's wander.</em></h2>
+          <p>A little neighbourhood, a lot of possibility.<br />Your Gold Coast story starts here.</p>
+          <button id="start" type="button">ENTER THE STREETS <span>↗</span></button>
+          <p id="pointer-error" class="pointer-error hidden" role="alert">Mouse capture was blocked. Allow it in your browser and try again.</p>
+          <div class="prompt-foot">DESKTOP EXPERIENCE <span>·</span> SOUNDTRACK NOT INCLUDED</div>
+        </div>
+        <div id="pause-hint" class="pause-hint hidden">Click anywhere to look around</div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
